@@ -252,7 +252,7 @@ button:hover {
 	float: right;
 }
 .footer-buttons {
-	height: 10vh;
+	height: 53px;
 	width: 100%;
 }
 .footer-buttons a {
@@ -299,10 +299,12 @@ button:hover {
 	float: right;
 }
 .footer-buttons .arrow_pink img {
-	max-height: 100%;
+	width: auto;
+	height: 100%;
 }
 .footer-buttons .arrow_gray img {
-	max-height: 100%;
+	width: auto;
+	height: 100%;
 }
 
 .main-footer a {
