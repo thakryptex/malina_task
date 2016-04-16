@@ -1,0 +1,114 @@
+@media screen and (max-width: 768px) {
+	.header-control {
+		text-align: center;
+	}
+	.header-social {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin: 25px auto 0;
+	}
+	.main-header .text  {
+		line-height: normal;
+	}
+	.main-footer .text {
+		text-align: center;
+	}
+	.main-footer .text li a {
+		margin: 0;
+	}
+	.main-footer .text img {
+		margin: 0 auto;
+		display: block;
+	}
+	.main-footer .text p {
+		font-size: 10px;
+	}
+	.main-footer .text .signoff {
+		line-height: normal;
+	}
+	.main-footer .text a {
+		margin: 0;
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.header-control {
+		font-size: 10px;
+		margin: 0;
+		padding: 0;
+	}
+	.header-control a {
+		margin: 0;
+		padding: 1px;
+	}
+	.main-header a {
+		margin: 0;
+		padding: 10px;
+		display: inline-block;
+		width: 50%;
+	}
+	.main-header .logo {
+		margin: 0;
+		width: 100%;
+		height: auto;
+	}
+	.main-header .malina {
+		margin: 0;
+		width: 30%;
+		height: auto;
+	}
+	.main-header .text,
+	.main-header .text .left,
+	.main-header .text .right {
+		padding: 0;
+		border: none;
+	}
+	.main-header .text .left,
+	.main-header .text .right {
+		width: 100%;
+		text-align: center;
+	}
+	.main-header button {
+		margin: 10px 0;
+		text-align: center;
+		float: none;
+	}
+	.main-section {
+		padding: 10px;
+	}
+	.main-section .img-container,
+	.main-section .txt-container {
+		width: 100%;
+	}
+	.main-section .cards {
+		margin: 0 auto;
+		width: 50%;
+		display: block;
+	}
+	.main-section .txt-container .text {
+		padding: 0;
+	}
+	.main-section .txt-container p {
+		text-align: justify;
+	}
+	.main-section .txt-container p:first-child {
+		text-align: center;
+		margin: 5px 0;
+	}
+	.main-section .txt-container button {
+		display: block;
+		margin: 0 auto 15px;
+	}
+	.main-footer .rate-container,
+	.main-footer .signoff-container,
+	.main-footer .pass-container {
+		width: 100%;
+		display: block;
+		margin-bottom: 15px;
+	}
+	.footer p {
+		font-size: 10px;
+	}
+}
